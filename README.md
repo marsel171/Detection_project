@@ -1,1 +1,3 @@
-# Detecttion_project
+Информация по данным:
+
+Обучающая выборка находится в файле X.mat. Она представлена из landmark'ов из папки example_data\images\
