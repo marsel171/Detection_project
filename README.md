@@ -1,3 +1,5 @@
+Пояснения
+
 Обучающая выборка находится в файле X.mat. Она представлена из landmark'ов из папки example_data\landmarks\, которые были даны.
 
 Данные с метками находятся в файлах y_om.mat (neutral = 0, open mouth = 1) и y_smile.mat (neutral = 0, smile = 1).
