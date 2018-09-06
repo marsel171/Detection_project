@@ -20,7 +20,6 @@ python Detection_project_GIT.py "img1.jpg" "img2.jpg"
 На выходе получаем классификацию для каждого тестируемого изображния и каждого случая, например:
 
 Detection image  img1.jpg
-
 Open mouth detection:
 neutral : 0.0 (3.0 %)
 open mouth : 1.0 (97.0 %)
@@ -29,7 +28,6 @@ neutral : 1.0 (100.0 %)
 smile : 0.0 (0.0 %)
 
 Detection image  img2.jpg
-
 Open mouth detection:
 neutral : 1.0 (99.0 %)
 open mouth : 0.0 (1.0 %)
