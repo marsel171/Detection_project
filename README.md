@@ -16,3 +16,4 @@
 
 Запуск производится с командной строки, например:
 python Detection_project_GIT.py "img1.jpg" "img2.jpg" "img3.jpg"
+
