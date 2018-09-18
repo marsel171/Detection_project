@@ -17,13 +17,13 @@
 
 В качестве классификатора используется простой линейный классификатор SVM метод опорных векторов, который дает в среднем 87% точности при тестах с разделением обучающей выборки 50/50 и 80/20. Также использовался классификатор Гауссов наивный байесовский классификатор, который давал схожие результаты при тестах. В итоге был взят классификатор SVM.
 
-Для вычисления положений landmark'ов по тестируемому изображению использовались данные **shape_predictor_68_face_landmarks.dat** (не представлена в репозитории) а также dlib (устновка по инструкции Marco D.G. в https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10).
+Для вычисления положений landmark'ов по тестируемому изображению использовались данные **shape_predictor_68_face_landmarks.dat** (не представлена в репозитории) а также dlib (устновка по инструкции [Marco D.G.](https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10).
 
 Запуск производится с командной строки, например:
 python Detection_project_GIT.py "img1.jpg" "img2.jpg"
 
 На выходе получаем классификацию для каждого тестируемого изображния и каждого случая, например:
-
+---
 * Detection image  img1.jpg
 * Open mouth detection:
 * neutral : 0.0 (3.0 %)
@@ -31,7 +31,7 @@ python Detection_project_GIT.py "img1.jpg" "img2.jpg"
 * Smile detection:
 * neutral : 1.0 (100.0 %)
 * smile : 0.0 (0.0 %)
-
+---
 * Detection image  img2.jpg
 * Open mouth detection:
 * neutral : 1.0 (99.0 %)
@@ -39,3 +39,4 @@ python Detection_project_GIT.py "img1.jpg" "img2.jpg"
 * Smile detection:
 * neutral : 1.0 (97.0 %)
 * smile : 0.0 (3.0 %)
+---
