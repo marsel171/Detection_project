@@ -11,7 +11,7 @@
 
 Обучающая выборка из landmark'ов находится в файле X.mat.
 
-Данные с метками находятся в файлах y_om.mat (neutral = 0, open mouth = 1) и y_smile.mat (neutral = 0, smile = 1).
+Данные с метками находятся в файлах ***y_om.mat*** (neutral = 0, open mouth = 1) и ***y_smile.mat*** (neutral = 0, smile = 1).
 
 Соответственно, обучение происходит как для open_mouth, где в качестве меток берутся y_om, так и для smile, где в качестве меток берутся y_smile.
 
